@@ -1,0 +1,18 @@
+id,question,expected_source,expected_page,expected_answer_or_outcome
+1,What are the working hours?,BrightPath_Employee_Handbook.pdf,1,9:30 AM to 6:30 PM Monday through Friday
+2,How is attendance calculated?,BrightPath_Employee_Handbook.pdf,1,Attended approved working days divided by scheduled working days
+3,Are public holidays included in scheduled working days?,BrightPath_Employee_Handbook.pdf,1,No they are excluded
+4,How many remote work days are permitted each week?,BrightPath_Employee_Handbook.pdf,2,Up to two days with manager approval
+5,Who is the fictional company CEO?,BrightPath_Employee_Handbook.pdf,2,Anita Rao
+6,Who should receive an equipment problem?,BrightPath_Employee_Handbook.pdf,2,IT help desk ticket
+7,How many annual leave days does a full-time employee receive?,BrightPath_Leave_Policy.pdf,1,18 days per calendar year
+8,At what rate does annual leave accrue?,BrightPath_Leave_Policy.pdf,1,1.5 days at end of each completed month
+9,When should planned leave be submitted?,BrightPath_Leave_Policy.pdf,1,At least five working days in advance
+10,How long does a manager have to respond to a leave request?,BrightPath_Leave_Policy.pdf,1,Two working days
+11,How many sick leave days are provided?,BrightPath_Leave_Policy.pdf,2,10 days per calendar year
+12,When can a medical certificate be requested?,BrightPath_Leave_Policy.pdf,2,Three or more consecutive working days absent
+13,How many annual leave days may carry over?,BrightPath_Leave_Policy.pdf,2,Up to five days
+14,When do carried-over leave days expire?,BrightPath_Leave_Policy.pdf,2,31 March
+15,How much compassionate leave is available?,BrightPath_Leave_Policy.pdf,2,Up to three paid working days
+16,What is the company stock price?,Not available,,Must return the exact fallback message
+17,What is the employee's home address?,Not available,,Must return the exact fallback message
