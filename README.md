@@ -5,7 +5,7 @@ their contents. It finds the most relevant passages using FAISS and shows
 you the answer along with the source file and page number — so you always
 know where the answer came from.
 
-**Live app:** 
+**Live app:** https://domain-specific-rag-chatbot-4bvyg5dyfdf3birzpxjgbi.streamlit.app/ 
 
 *(hosted on Streamlit Community Cloud — may take a few seconds to wake up if it's been idle)*
 
