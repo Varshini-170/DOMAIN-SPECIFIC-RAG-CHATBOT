@@ -1,0 +1,9 @@
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.streamlit/secrets.toml
+saved_index/index.faiss
+saved_index/chunks.json
+saved_index/store_config.json
