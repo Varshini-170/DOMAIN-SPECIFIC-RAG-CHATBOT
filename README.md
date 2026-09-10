@@ -5,7 +5,7 @@ their contents. It finds the most relevant passages using FAISS and shows
 you the answer along with the source file and page number — so you always
 know where the answer came from.
 
-**Live app:** [your deployment link]
+**Live app:** 
 
 *(hosted on Streamlit Community Cloud — may take a few seconds to wake up if it's been idle)*
 
@@ -30,19 +30,23 @@ Upload PDF(s) -> Extract text (pypdf) -> Split into chunks
 
 
 ## Folder Structure
+
+```
 pdf-rag-chatbot/
-|-- app.py # Streamlit interface
-|-- document_loader.py # PDF validation + text extraction
-|-- rag_pipeline.py # chunking + retrieval + answer flow
-|-- vector_store.py # embeddings + FAISS index
-|-- prompt.py # strict answer-only-from-context prompt
-|-- documents/ # sample PDFs to test with
-|-- tests/ # unit tests
-|-- test_questions.csv # evaluation sheet (17 questions)
-|-- architecture.svg # workflow diagram
-|-- create_sample_documents.py
-|-- requirements.txt
-|-- .env.example
+├── app.py                    # Streamlit interface
+├── document_loader.py        # PDF validation + text extraction
+├── rag_pipeline.py           # chunking + retrieval + answer flow
+├── vector_store.py           # embeddings + FAISS index
+├── prompt.py                 # strict answer-only-from-context prompt
+├── documents/                # sample PDFs to test with
+├── tests/                    # unit tests
+├── test_questions.csv        # evaluation sheet (17 questions)
+├── architecture.svg          # workflow diagram
+├── create_sample_documents.py
+├── requirements.txt
+└── .env.example
+```
+
 
 
 ## How to run it
